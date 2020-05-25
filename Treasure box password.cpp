@@ -63,7 +63,7 @@ int main(void) {
 		}
 		sort(v.begin(), v.end(),compare);
 		v.erase(unique(v.begin(), v.end()), v.end());
-		printf("#%d %d\n", i, v[k]);
+		printf("#%d %d\n", i, v[k-1]);
 	}
 	return 0;
 }
